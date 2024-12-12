@@ -1,0 +1,16 @@
+name: Local Action
+description: A local action for performing a specific task.
+inputs:
+  input1:
+    description: 'Input 1 description.'
+    required: true
+    default: 'default value'
+  input2:
+    description: 'Input 2 description.'
+    required: false
+outputs:
+  output1:
+    description: 'Output 1 description.'
+runs:
+  using: 'node12'
+  main: 'index.js'
